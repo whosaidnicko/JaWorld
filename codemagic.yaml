@@ -8,9 +8,9 @@ workflows:
     environment:
       ios_signing:
         provisioning_profiles:
-         - profile: bonz3prf
+         - profile: jaProfile3
         certificates:
-         - certificate: jaProfile3
+         - certificate: certjaworld
       vars:
         BUNDLE_ID: "ja.worl.sol.per"
         XCODE_PROJECT: "JaWorld.xcodeproj"
