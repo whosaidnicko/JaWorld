@@ -10,7 +10,7 @@ workflows:
         provisioning_profiles:
          - profile: bonz3prf
         certificates:
-         - certificate: certjaworld
+         - certificate: jaProfile3
       vars:
         BUNDLE_ID: "ja.worl.sol.per"
         XCODE_PROJECT: "JaWorld.xcodeproj"
